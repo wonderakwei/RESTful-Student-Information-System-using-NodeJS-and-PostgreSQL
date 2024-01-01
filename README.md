@@ -38,7 +38,7 @@ npm install
 ### 3. Running the Application:
 Start the NodeJS application by executing the following command:
 ```bash
-node app.js
+node db.js
 ```
 The application will start running on the default port `3000` or the port specified in the `.env` file.
 
