@@ -1,5 +1,3 @@
-Certainly! Below is the corrected and modified README for your NodeJS + PostgreSQL RESTful API project:
-
 ---
 
 ## **NodeJS + PostgreSQL RESTful API Project**
