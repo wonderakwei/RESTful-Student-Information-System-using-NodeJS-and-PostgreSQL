@@ -24,6 +24,13 @@ Navigate to the project directory and install the required NodeJS packages using
 npm install
 ```
 
+### Framework Used:
+The project utilizes the **Express.js** framework for building the RESTful API:
+To install Express.js, navigate to your project directory and run the following command:
+```bash
+npm install express
+```
+
 #### PostgreSQL Setup:
 - Create a PostgreSQL database named `studentsdb`.
 - Configure the database connection in the `.env` file using the following format:
@@ -38,7 +45,7 @@ npm install
 ### 3. Running the Application:
 Start the NodeJS application by executing the following command:
 ```bash
-node db.js
+node server.js
 ```
 The application will start running on the default port `3000` or the port specified in the `.env` file.
 
@@ -50,6 +57,16 @@ Use Postman to test the API endpoints:
 - **Update Student**: Send a PUT request to `http://localhost:3000/students/:id` with the updated student details in the request body.
 - **Delete Student**: Send a DELETE request to `http://localhost:3000/students/:id` to delete a student by ID.
 
+API Endpoints:
+GET /api/v1/students: Get all students.
+GET /api/v1/students/:id: Get a student by ID.
+POST /api/v1/students: Add a new student.
+PUT /api/v1/students/:id: Update a student by ID.
+DELETE /api/v1/students/:id: Delete a student by ID.
+---
+
+## Contributing:
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 ---
 
 ## Conclusion:
